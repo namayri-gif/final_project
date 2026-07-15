@@ -1,0 +1,22 @@
+[2.917s] Invoking command in '/root/workspaces/ros2_ws/src/ai-worker-sim/ffw_teleop': PYTHONPATH=/root/workspaces/ros2_ws/build/ffw_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/workspaces/ros2_ws/install/ffw_teleop/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ffw_teleop build --build-base /root/workspaces/ros2_ws/build/ffw_teleop/build install --record /root/workspaces/ros2_ws/build/ffw_teleop/install.log --install-scripts $base/lib/ffw_teleop --single-version-externally-managed install_data
+[3.134s] running egg_info
+[3.250s] writing ../../../build/ffw_teleop/ffw_teleop.egg-info/PKG-INFO
+[3.264s] writing dependency_links to ../../../build/ffw_teleop/ffw_teleop.egg-info/dependency_links.txt
+[3.264s] writing entry points to ../../../build/ffw_teleop/ffw_teleop.egg-info/entry_points.txt
+[3.264s] writing requirements to ../../../build/ffw_teleop/ffw_teleop.egg-info/requires.txt
+[3.308s] writing top-level names to ../../../build/ffw_teleop/ffw_teleop.egg-info/top_level.txt
+[3.357s] reading manifest file '../../../build/ffw_teleop/ffw_teleop.egg-info/SOURCES.txt'
+[3.357s] writing manifest file '../../../build/ffw_teleop/ffw_teleop.egg-info/SOURCES.txt'
+[3.357s] running build
+[3.357s] running build_py
+[3.358s] running install
+[3.358s] running install_lib
+[3.371s] running install_data
+[3.373s] running install_egg_info
+[3.400s] removing '/root/workspaces/ros2_ws/install/ffw_teleop/lib/python3.12/site-packages/ffw_teleop-1.2.0-py3.12.egg-info' (and everything under it)
+[3.445s] Copying ../../../build/ffw_teleop/ffw_teleop.egg-info to /root/workspaces/ros2_ws/install/ffw_teleop/lib/python3.12/site-packages/ffw_teleop-1.2.0-py3.12.egg-info
+[3.607s] running install_scripts
+[3.812s] Installing keyborad_control script to /root/workspaces/ros2_ws/install/ffw_teleop/lib/ffw_teleop
+[3.832s] Installing mobile_teleop script to /root/workspaces/ros2_ws/install/ffw_teleop/lib/ffw_teleop
+[3.852s] writing list of installed files to '/root/workspaces/ros2_ws/build/ffw_teleop/install.log'
+[4.202s] Invoked command in '/root/workspaces/ros2_ws/src/ai-worker-sim/ffw_teleop' returned '0': PYTHONPATH=/root/workspaces/ros2_ws/build/ffw_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/workspaces/ros2_ws/install/ffw_teleop/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ffw_teleop build --build-base /root/workspaces/ros2_ws/build/ffw_teleop/build install --record /root/workspaces/ros2_ws/build/ffw_teleop/install.log --install-scripts $base/lib/ffw_teleop --single-version-externally-managed install_data

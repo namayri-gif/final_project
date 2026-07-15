@@ -1,0 +1,122 @@
+[0.933s] Invoking command in '/root/workspaces/ros2_ws/build/office_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/workspaces/ros2_ws/install/ffw_teleop:/root/workspaces/ros2_ws/install/ffw_bringup:/opt/ros/jazzy /usr/bin/cmake --build /root/workspaces/ros2_ws/build/office_world -- -j4 -l4
+[1.281s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.354s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.873s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.874s] -- Configured 'flake8' exclude dirs and/or files: 
+[2.925s] -- Added test 'lint_cmake' to check CMake code style
+[2.948s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.103s] -- Added test 'xmllint' to check XML markup files
+[3.170s] -- Configuring done (2.0s)
+[3.616s] -- Generating done (0.4s)
+[3.872s] -- Build files have been written to: /root/workspaces/ros2_ws/build/office_world
+[3.986s] Invoked command in '/root/workspaces/ros2_ws/build/office_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/workspaces/ros2_ws/install/ffw_teleop:/root/workspaces/ros2_ws/install/ffw_bringup:/opt/ros/jazzy /usr/bin/cmake --build /root/workspaces/ros2_ws/build/office_world -- -j4 -l4
+[4.000s] Invoking command in '/root/workspaces/ros2_ws/build/office_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/workspaces/ros2_ws/install/ffw_teleop:/root/workspaces/ros2_ws/install/ffw_bringup:/opt/ros/jazzy /usr/bin/cmake --install /root/workspaces/ros2_ws/build/office_world
+[4.103s] -- Install configuration: ""
+[4.119s] -- Up-to-date: /root/workspaces/ros2_ws/install/office_world/share/office_world//launch
+[4.123s] -- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//launch/office_world_launch.launch.py
+[4.161s] -- Up-to-date: /root/workspaces/ros2_ws/install/office_world/share/office_world//config
+[4.179s] -- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//config/gz_bridge_ros.yaml
+[4.209s] -- Up-to-date: /root/workspaces/ros2_ws/install/office_world/share/office_world//world
+[4.226s] -- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//world/office_world.sdf
+[4.280s] -- Up-to-date: /root/workspaces/ros2_ws/install/office_world/share/office_world//models
+[4.302s] -- Up-to-date: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/WaterDispenser
+[4.306s] -- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/WaterDispenser/model.sdf
+[4.346s] -- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/WaterDispenser/model.config
+[4.385s] -- Up-to-date: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/WaterDispenser/meshes
+[4.394s] -- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/WaterDispenser/meshes/water_dispenser.dae
+[4.562s] -- Up-to-date: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Laptop
+[4.570s] -- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Laptop/model.sdf
+[4.614s] -- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Laptop/model.config
+[4.662s] -- Up-to-date: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Laptop/meshes
+[4.680s] -- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Laptop/meshes/laptop.stl
+[4.746s] -- Up-to-date: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/ConferenceTable
+[4.764s] -- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/ConferenceTable/model.sdf
+[4.796s] -- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/ConferenceTable/model.config
+[4.852s] -- Up-to-date: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/ConferenceTable/meshes
+[4.852s] -- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/ConferenceTable/meshes/conference_table.stl
+[4.911s] -- Up-to-date: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Door
+[4.916s] -- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Door/model.sdf
+[4.965s] -- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Door/model.config
+[5.010s] -- Up-to-date: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Door/meshes
+[5.018s] -- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Door/meshes/door.stl
+[5.208s] -- Up-to-date: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Surfaces
+[5.221s] -- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Surfaces/model.sdf
+[5.269s] -- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Surfaces/model.config
+[5.310s] -- Up-to-date: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Surfaces/meshes
+[5.319s] -- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Surfaces/meshes/floor_13.mtl
+[5.375s] -- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Surfaces/meshes/floor_6.obj
+[5.418s] -- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Surfaces/meshes/floor_4.mtl
+[5.464s] -- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Surfaces/meshes/white_tiles.png
+[5.530s] -- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Surfaces/meshes/floor_8.mtl
+[5.586s] -- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Surfaces/meshes/floor_11.obj
+[5.633s] -- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Surfaces/meshes/wall_2.mtl
+[5.674s] -- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Surfaces/meshes/floor_2.obj
+[5.723s] -- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Surfaces/meshes/white_carpet.png
+[5.848s] -- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Surfaces/meshes/floor_8.obj
+[5.902s] -- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Surfaces/meshes/black_concrete.png
+[5.988s] -- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Surfaces/meshes/floor_6.mtl
+[6.013s] -- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Surfaces/meshes/wall_2.obj
+[6.060s] -- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Surfaces/meshes/floor_13.obj
+[6.107s] -- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Surfaces/meshes/wood2.png
+[6.189s] -- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Surfaces/meshes/floor_2.mtl
+[6.237s] -- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Surfaces/meshes/model.material
+[6.281s] -- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Surfaces/meshes/floor_4.obj
+[6.323s] -- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Surfaces/meshes/floor_11.mtl
+[6.377s] -- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Surfaces/meshes/floor_7.obj
+[6.456s] -- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Surfaces/meshes/floor_14.mtl
+[6.485s] -- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Surfaces/meshes/floor_5.mtl
+[6.523s] -- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Surfaces/meshes/wall_1.obj
+[6.586s] -- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Surfaces/meshes/floor_9.mtl
+[6.633s] -- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Surfaces/meshes/wood1.png
+[6.685s] -- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Surfaces/meshes/floor_12.obj
+[6.747s] -- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Surfaces/meshes/floor_1.mtl
+[6.779s] -- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Surfaces/meshes/floor_10.mtl
+[6.819s] -- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Surfaces/meshes/floor_3.obj
+[6.862s] -- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Surfaces/meshes/floor_9.obj
+[6.916s] -- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Surfaces/meshes/white_wall.png
+[6.994s] -- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Surfaces/meshes/floor_7.mtl
+[7.018s] -- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Surfaces/meshes/floor_10.obj
+[7.090s] -- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Surfaces/meshes/wall_1.mtl
+[7.106s] -- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Surfaces/meshes/floor_1.obj
+[7.160s] -- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Surfaces/meshes/floor_14.obj
+[7.202s] -- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Surfaces/meshes/floor_3.mtl
+[7.259s] -- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Surfaces/meshes/floor_12.mtl
+[7.313s] -- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Surfaces/meshes/floor_5.obj
+[7.356s] -- Up-to-date: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Tv
+[7.369s] -- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Tv/model.sdf
+[7.398s] -- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Tv/model.config
+[7.455s] -- Up-to-date: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Tv/meshes
+[7.473s] -- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Tv/meshes/tv.stl
+[7.530s] -- Up-to-date: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/HusarionLogo
+[7.539s] -- Up-to-date: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/HusarionLogo/meshes
+[7.539s] -- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/HusarionLogo/meshes/husarion_logo.dae
+[7.603s] -- Up-to-date: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Kitchen
+[7.612s] -- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Kitchen/model.sdf
+[7.655s] -- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Kitchen/model.config
+[7.743s] -- Up-to-date: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Kitchen/meshes
+[7.748s] -- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Kitchen/meshes/kitchen.stl
+[7.860s] -- Up-to-date: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Rosbot
+[7.868s] -- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Rosbot/model.sdf
+[7.903s] -- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Rosbot/model.config
+[7.945s] -- Up-to-date: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Rosbot/meshes
+[7.958s] -- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Rosbot/meshes/upper.dae
+[8.011s] -- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Rosbot/meshes/rplidar.dae
+[8.064s] -- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Rosbot/meshes/box.dae
+[8.152s] -- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Rosbot/meshes/wheel.dae
+[8.216s] -- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Rosbot/meshes/astra.dae
+[8.285s] -- Up-to-date: /root/workspaces/ros2_ws/install/office_world/share/ament_index/resource_index/package_run_dependencies/office_world
+[8.296s] -- Installing: /root/workspaces/ros2_ws/install/office_world/share/ament_index/resource_index/parent_prefix_path/office_world
+[8.343s] -- Up-to-date: /root/workspaces/ros2_ws/install/office_world/share/office_world/environment/ament_prefix_path.sh
+[8.352s] -- Up-to-date: /root/workspaces/ros2_ws/install/office_world/share/office_world/environment/ament_prefix_path.dsv
+[8.362s] -- Up-to-date: /root/workspaces/ros2_ws/install/office_world/share/office_world/environment/path.sh
+[8.362s] -- Up-to-date: /root/workspaces/ros2_ws/install/office_world/share/office_world/environment/path.dsv
+[8.372s] -- Up-to-date: /root/workspaces/ros2_ws/install/office_world/share/office_world/local_setup.bash
+[8.372s] -- Up-to-date: /root/workspaces/ros2_ws/install/office_world/share/office_world/local_setup.sh
+[8.374s] -- Up-to-date: /root/workspaces/ros2_ws/install/office_world/share/office_world/local_setup.zsh
+[8.378s] -- Up-to-date: /root/workspaces/ros2_ws/install/office_world/share/office_world/local_setup.dsv
+[8.383s] -- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world/package.dsv
+[8.432s] -- Up-to-date: /root/workspaces/ros2_ws/install/office_world/share/ament_index/resource_index/packages/office_world
+[8.457s] -- Up-to-date: /root/workspaces/ros2_ws/install/office_world/share/office_world/cmake/office_worldConfig.cmake
+[8.470s] -- Up-to-date: /root/workspaces/ros2_ws/install/office_world/share/office_world/cmake/office_worldConfig-version.cmake
+[8.470s] -- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world/package.xml
+[8.519s] Invoked command in '/root/workspaces/ros2_ws/build/office_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/workspaces/ros2_ws/install/ffw_teleop:/root/workspaces/ros2_ws/install/ffw_bringup:/opt/ros/jazzy /usr/bin/cmake --install /root/workspaces/ros2_ws/build/office_world

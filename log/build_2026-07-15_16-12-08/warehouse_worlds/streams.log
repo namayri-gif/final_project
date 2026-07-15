@@ -1,0 +1,217 @@
+[0.317s] Invoking command in '/root/workspaces/ros2_ws/build/warehouse_worlds': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/workspaces/ros2_ws/src/Gazebo_worlds/warehouse_worlds -DCMAKE_INSTALL_PREFIX=/root/workspaces/ros2_ws/install/warehouse_worlds
+[0.570s] -- The C compiler identification is GNU 13.3.0
+[0.938s] -- The CXX compiler identification is GNU 13.3.0
+[1.010s] -- Detecting C compiler ABI info
+[1.747s] -- Detecting C compiler ABI info - done
+[1.757s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.757s] -- Detecting C compile features
+[1.757s] -- Detecting C compile features - done
+[1.830s] -- Detecting CXX compiler ABI info
+[2.660s] -- Detecting CXX compiler ABI info - done
+[2.700s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.712s] -- Detecting CXX compile features
+[2.712s] -- Detecting CXX compile features - done
+[2.782s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[3.188s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[4.063s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[5.116s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.135s] -- Configured 'flake8' exclude dirs and/or files: 
+[5.189s] -- Added test 'lint_cmake' to check CMake code style
+[5.229s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[5.518s] -- Added test 'xmllint' to check XML markup files
+[5.695s] -- Configuring done (5.4s)
+[6.272s] -- Generating done (0.5s)
+[6.514s] -- Build files have been written to: /root/workspaces/ros2_ws/build/warehouse_worlds
+[6.523s] Invoked command in '/root/workspaces/ros2_ws/build/warehouse_worlds' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/workspaces/ros2_ws/src/Gazebo_worlds/warehouse_worlds -DCMAKE_INSTALL_PREFIX=/root/workspaces/ros2_ws/install/warehouse_worlds
+[6.524s] Invoking command in '/root/workspaces/ros2_ws/build/warehouse_worlds': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/workspaces/ros2_ws/build/warehouse_worlds -- -j4 -l4
+[6.609s] Invoked command in '/root/workspaces/ros2_ws/build/warehouse_worlds' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/workspaces/ros2_ws/build/warehouse_worlds -- -j4 -l4
+[6.616s] Invoking command in '/root/workspaces/ros2_ws/build/warehouse_worlds': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/workspaces/ros2_ws/build/warehouse_worlds
+[6.661s] -- Install configuration: ""
+[6.679s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//launch
+[6.703s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//launch/warehouse_distribution_launch.launch.py
+[6.742s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//launch/warehouse_storage_launch.launch.py
+[6.782s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//launch/warehouse_logistics_launch.launch.py
+[6.814s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//config
+[6.861s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//config/gz_bridge_ros.yaml
+[6.874s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//worlds
+[6.905s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//worlds/warehouse_storage.sdf
+[6.947s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//worlds/warehouse_logistics.sdf
+[6.968s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//worlds/warehouse_distribution.sdf
+[7.020s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models
+[7.041s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/disk_part_ariac
+[7.042s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/disk_part_ariac/model.sdf
+[7.074s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/disk_part_ariac/model.config
+[7.115s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/disk_part_ariac/meshes
+[7.135s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/disk_part_ariac/meshes/disk.dae
+[7.173s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/pulley_part_ariac
+[7.189s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/pulley_part_ariac/model.sdf
+[7.252s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/pulley_part_ariac/model.config
+[7.301s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/pulley_part_ariac/meshes
+[7.325s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/pulley_part_ariac/meshes/pulley.dae
+[7.380s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/part2_ariac
+[7.385s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/part2_ariac/model.sdf
+[7.427s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/part2_ariac/model.config
+[7.490s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/gear_part_ariac
+[7.490s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/gear_part_ariac/model.sdf
+[7.528s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/gear_part_ariac/model.config
+[7.565s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/gear_part_ariac/meshes
+[7.589s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/gear_part_ariac/meshes/gear.dae
+[7.632s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/gasket_part_ariac
+[7.662s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/gasket_part_ariac/model.sdf
+[7.683s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/gasket_part_ariac/model.config
+[7.730s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/gasket_part_ariac/meshes
+[7.744s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/gasket_part_ariac/meshes/gasket.dae
+[7.786s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/shipping_container_short_ariac
+[7.805s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/shipping_container_short_ariac/model.sdf
+[7.848s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/shipping_container_short_ariac/materials
+[7.877s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/shipping_container_short_ariac/materials/textures
+[7.888s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/shipping_container_short_ariac/materials/textures/ShippingContainer.png
+[7.929s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/shipping_container_short_ariac/model.config
+[7.971s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/shipping_container_short_ariac/meshes
+[7.998s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/shipping_container_short_ariac/meshes/ShippingContainer_Textured.mtl
+[8.051s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/shipping_container_short_ariac/meshes/ShippingContainer_Textured.obj
+[8.095s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/part4_ariac
+[8.122s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/part4_ariac/model.sdf
+[8.156s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/part4_ariac/model.config
+[8.195s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/kit_tray_ariac
+[8.229s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/kit_tray_ariac/model.sdf
+[8.251s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/kit_tray_ariac/model.config
+[8.301s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/piston_rod_part_ariac
+[8.313s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/piston_rod_part_ariac/model.sdf
+[8.353s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/piston_rod_part_ariac/model.config
+[8.402s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/piston_rod_part_ariac/meshes
+[8.424s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/piston_rod_part_ariac/meshes/piston_rod.dae
+[8.487s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/closed_box_ariac
+[8.502s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/closed_box_ariac/model.sdf
+[8.533s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/closed_box_ariac/materials
+[8.560s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/closed_box_ariac/materials/textures
+[8.572s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/closed_box_ariac/materials/textures/closed_box.png
+[8.609s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/closed_box_ariac/model.config
+[8.652s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/closed_box_ariac/meshes
+[8.674s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/closed_box_ariac/meshes/closed_box.mtl
+[8.717s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/closed_box_ariac/meshes/closed_box.obj
+[8.764s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/etgah_logo
+[8.786s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/etgah_logo/model.sdf
+[8.831s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/etgah_logo/materials
+[8.844s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/etgah_logo/materials/textures
+[8.874s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/etgah_logo/materials/textures/logo.png
+[8.916s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/etgah_logo/model.config
+[8.959s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/open_box_ariac
+[8.980s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/open_box_ariac/model.sdf
+[9.022s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/open_box_ariac/materials
+[9.064s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/open_box_ariac/materials/textures
+[9.078s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/open_box_ariac/materials/textures/open_box.png
+[9.108s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/open_box_ariac/model.config
+[9.128s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/open_box_ariac/meshes
+[9.180s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/open_box_ariac/meshes/open_box.mtl
+[9.224s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/open_box_ariac/meshes/open_box.obj
+[9.248s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/part3_ariac
+[9.291s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/part3_ariac/model.sdf
+[9.336s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/part3_ariac/model.config
+[9.383s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/arm_part_ariac
+[9.396s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/arm_part_ariac/model.sdf
+[9.428s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/arm_part_ariac/materials
+[9.474s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/arm_part_ariac/materials/scripts
+[9.474s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/arm_part_ariac/materials/scripts/arm_part.material
+[9.520s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/arm_part_ariac/materials/textures
+[9.542s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/arm_part_ariac/materials/textures/parts.png
+[9.612s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/arm_part_ariac/model.config
+[9.661s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/arm_part_ariac/meshes
+[9.682s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/arm_part_ariac/meshes/arm.dae
+[9.726s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/shipping_container_ariac
+[9.751s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/shipping_container_ariac/model.sdf
+[9.792s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/shipping_container_ariac/materials
+[9.805s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/shipping_container_ariac/materials/textures
+[9.840s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/shipping_container_ariac/materials/textures/ShippingContainer.png
+[9.866s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/shipping_container_ariac/model.config
+[9.910s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/shipping_container_ariac/meshes
+[9.929s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/shipping_container_ariac/meshes/ShippingContainer_Textured.mtl
+[9.966s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/shipping_container_ariac/meshes/ShippingContainer_Textured.obj
+[10.038s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/workcell
+[10.055s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/workcell/model.sdf
+[10.091s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/workcell/materials
+[10.121s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/workcell/materials/textures
+[10.142s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/workcell/materials/textures/Mesh.png
+[10.174s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/workcell/materials/textures/Conveyor.png
+[10.231s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/workcell/materials/textures/ControlPanel.png
+[10.302s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/workcell/materials/textures/Bin.png
+[10.353s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/workcell/materials/textures/Wall_Corrugated.png
+[10.415s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/workcell/materials/textures/CardboardBoxes.png
+[10.477s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/workcell/materials/textures/Door_Window.png
+[10.538s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/workcell/materials/textures/Plywood.png
+[10.613s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/workcell/materials/textures/Stairs.png
+[10.660s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/workcell/materials/textures/RollupDoor.png
+[10.732s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/workcell/materials/textures/Floor.png
+[10.784s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/workcell/materials/textures/Pallet.png
+[10.847s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/workcell/materials/textures/WorkCell_Render.png
+[10.949s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/workcell/materials/textures/Wall_Concrete.png
+[11.002s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/workcell/materials/textures/Shelves.png
+[11.059s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/workcell/materials/textures/Pillar.png
+[11.144s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/workcell/materials/textures/RubberMat.png
+[11.204s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/workcell/materials/textures/Yellow.png
+[11.242s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/workcell/materials/textures/PalletWrap.png
+[11.305s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/workcell/model.config
+[11.341s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/workcell/meshes
+[11.359s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/workcell/meshes/mesh.dae
+[11.435s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/shipping_container_conveyor_tall_ariac
+[11.452s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/shipping_container_conveyor_tall_ariac/model.sdf
+[11.489s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/shipping_container_conveyor_tall_ariac/materials
+[11.508s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/shipping_container_conveyor_tall_ariac/materials/textures
+[11.527s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/shipping_container_conveyor_tall_ariac/materials/textures/ShippingContainer.png
+[11.564s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/shipping_container_conveyor_tall_ariac/model.config
+[11.616s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/shipping_container_conveyor_tall_ariac/meshes
+[11.634s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/shipping_container_conveyor_tall_ariac/meshes/ShippingContainer_Textured.mtl
+[11.677s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/shipping_container_conveyor_tall_ariac/meshes/ShippingContainer_Textured.obj
+[11.745s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/yellow_bin_ariac
+[11.764s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/yellow_bin_ariac/model.sdf
+[11.806s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/yellow_bin_ariac/materials
+[11.824s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/yellow_bin_ariac/materials/textures
+[11.844s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/yellow_bin_ariac/materials/textures/yellow_bin.png
+[11.875s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/yellow_bin_ariac/model.config
+[11.913s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/yellow_bin_ariac/meshes
+[11.930s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/yellow_bin_ariac/meshes/yellow_bin.obj
+[11.973s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/yellow_bin_ariac/meshes/yellow_bin.mtl
+[12.014s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/workcell_bin
+[12.031s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/workcell_bin/model.sdf
+[12.068s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/workcell_bin/materials
+[12.089s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/workcell_bin/materials/textures
+[12.109s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/workcell_bin/materials/textures/bin.png
+[12.187s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/workcell_bin/model.config
+[12.225s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/workcell_bin/meshes
+[12.243s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/workcell_bin/meshes/bin.dae
+[12.295s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/shipping_container_conveyor_ariac
+[12.315s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/shipping_container_conveyor_ariac/model.sdf
+[12.349s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/shipping_container_conveyor_ariac/materials
+[12.367s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/shipping_container_conveyor_ariac/materials/textures
+[12.386s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/shipping_container_conveyor_ariac/materials/textures/ShippingContainer.png
+[12.424s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/shipping_container_conveyor_ariac/model.config
+[12.461s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/shipping_container_conveyor_ariac/meshes
+[12.478s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/shipping_container_conveyor_ariac/meshes/ShippingContainer_Textured.mtl
+[12.518s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/shipping_container_conveyor_ariac/meshes/ShippingContainer_Textured.obj
+[12.586s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/warehouse_robot_ariac
+[12.606s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/warehouse_robot_ariac/model.sdf
+[12.644s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/warehouse_robot_ariac/materials
+[12.664s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/warehouse_robot_ariac/materials/textures
+[12.686s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/warehouse_robot_ariac/materials/textures/robot.png
+[12.743s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/warehouse_robot_ariac/model.config
+[12.786s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/warehouse_robot_ariac/meshes
+[12.804s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/warehouse_robot_ariac/meshes/robot.dae
+[12.842s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/part1_ariac
+[12.864s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/part1_ariac/model.sdf
+[12.897s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds//models/part1_ariac/model.config
+[12.953s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/ament_index/resource_index/package_run_dependencies/warehouse_worlds
+[13.007s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/ament_index/resource_index/parent_prefix_path/warehouse_worlds
+[13.054s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds/environment/ament_prefix_path.sh
+[13.092s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds/environment/ament_prefix_path.dsv
+[13.133s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds/environment/path.sh
+[13.172s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds/environment/path.dsv
+[13.211s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds/local_setup.bash
+[13.256s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds/local_setup.sh
+[13.294s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds/local_setup.zsh
+[13.341s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds/local_setup.dsv
+[13.386s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds/package.dsv
+[13.438s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/ament_index/resource_index/packages/warehouse_worlds
+[13.482s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds/cmake/warehouse_worldsConfig.cmake
+[13.522s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds/cmake/warehouse_worldsConfig-version.cmake
+[13.562s] -- Installing: /root/workspaces/ros2_ws/install/warehouse_worlds/share/warehouse_worlds/package.xml
+[13.620s] Invoked command in '/root/workspaces/ros2_ws/build/warehouse_worlds' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/workspaces/ros2_ws/build/warehouse_worlds

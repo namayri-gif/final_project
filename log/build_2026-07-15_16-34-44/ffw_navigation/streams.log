@@ -1,0 +1,41 @@
+[0.296s] Invoking command in '/root/workspaces/ros2_ws/build/ffw_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/workspaces/ros2_ws/install/ffw_teleop:/root/workspaces/ros2_ws/install/ffw_bringup:/opt/ros/jazzy /usr/bin/cmake --build /root/workspaces/ros2_ws/build/ffw_navigation -- -j4 -l4
+[0.930s] [100%] Built target is_path_length_under_plugin
+[1.729s] Invoked command in '/root/workspaces/ros2_ws/build/ffw_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/workspaces/ros2_ws/install/ffw_teleop:/root/workspaces/ros2_ws/install/ffw_bringup:/opt/ros/jazzy /usr/bin/cmake --build /root/workspaces/ros2_ws/build/ffw_navigation -- -j4 -l4
+[1.743s] Invoking command in '/root/workspaces/ros2_ws/build/ffw_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/workspaces/ros2_ws/install/ffw_teleop:/root/workspaces/ros2_ws/install/ffw_bringup:/opt/ros/jazzy /usr/bin/cmake --install /root/workspaces/ros2_ws/build/ffw_navigation
+[1.806s] -- Install configuration: ""
+[1.806s] -- Up-to-date: /root/workspaces/ros2_ws/install/ffw_navigation/lib/libis_path_length_under_plugin.so
+[1.825s] -- Up-to-date: /root/workspaces/ros2_ws/install/ffw_navigation/share/ffw_navigation/launch
+[1.849s] -- Up-to-date: /root/workspaces/ros2_ws/install/ffw_navigation/share/ffw_navigation/launch/navigation.launch.py
+[1.853s] -- Up-to-date: /root/workspaces/ros2_ws/install/ffw_navigation/share/ffw_navigation/launch/online_sync_launch.py
+[1.853s] -- Up-to-date: /root/workspaces/ros2_ws/install/ffw_navigation/share/ffw_navigation/rviz
+[1.854s] -- Up-to-date: /root/workspaces/ros2_ws/install/ffw_navigation/share/ffw_navigation/rviz/navigation.rviz
+[1.854s] -- Up-to-date: /root/workspaces/ros2_ws/install/ffw_navigation/share/ffw_navigation/rviz/mapping.rviz
+[1.854s] -- Up-to-date: /root/workspaces/ros2_ws/install/ffw_navigation/share/ffw_navigation/config
+[1.858s] -- Up-to-date: /root/workspaces/ros2_ws/install/ffw_navigation/share/ffw_navigation/config/navigation_mppi.yaml
+[1.872s] -- Up-to-date: /root/workspaces/ros2_ws/install/ffw_navigation/share/ffw_navigation/config/bt
+[1.875s] -- Up-to-date: /root/workspaces/ros2_ws/install/ffw_navigation/share/ffw_navigation/config/bt/nav_modes.xml
+[1.880s] -- Up-to-date: /root/workspaces/ros2_ws/install/ffw_navigation/share/ffw_navigation/config/navigation.yaml
+[1.898s] -- Up-to-date: /root/workspaces/ros2_ws/install/ffw_navigation/share/ffw_navigation/config/mapper_params_online_sync.yaml
+[1.898s] -- Up-to-date: /root/workspaces/ros2_ws/install/ffw_navigation/share/ffw_navigation/maps
+[1.901s] -- Up-to-date: /root/workspaces/ros2_ws/install/ffw_navigation/share/ffw_navigation/maps/map.pgm
+[1.907s] -- Up-to-date: /root/workspaces/ros2_ws/install/ffw_navigation/share/ffw_navigation/maps/map.yaml
+[1.914s] -- Up-to-date: /root/workspaces/ros2_ws/install/ffw_navigation/share/ffw_navigation/environment/library_path.sh
+[1.927s] -- Up-to-date: /root/workspaces/ros2_ws/install/ffw_navigation/share/ffw_navigation/environment/library_path.dsv
+[1.927s] -- Up-to-date: /root/workspaces/ros2_ws/install/ffw_navigation/share/ament_index/resource_index/package_run_dependencies/ffw_navigation
+[1.941s] -- Up-to-date: /root/workspaces/ros2_ws/install/ffw_navigation/share/ament_index/resource_index/parent_prefix_path/ffw_navigation
+[1.941s] -- Up-to-date: /root/workspaces/ros2_ws/install/ffw_navigation/share/ffw_navigation/environment/ament_prefix_path.sh
+[1.942s] -- Up-to-date: /root/workspaces/ros2_ws/install/ffw_navigation/share/ffw_navigation/environment/ament_prefix_path.dsv
+[1.947s] -- Up-to-date: /root/workspaces/ros2_ws/install/ffw_navigation/share/ffw_navigation/environment/path.sh
+[1.967s] -- Up-to-date: /root/workspaces/ros2_ws/install/ffw_navigation/share/ffw_navigation/environment/path.dsv
+[1.989s] -- Up-to-date: /root/workspaces/ros2_ws/install/ffw_navigation/share/ffw_navigation/local_setup.bash
+[2.011s] -- Up-to-date: /root/workspaces/ros2_ws/install/ffw_navigation/share/ffw_navigation/local_setup.sh
+[2.028s] -- Up-to-date: /root/workspaces/ros2_ws/install/ffw_navigation/share/ffw_navigation/local_setup.zsh
+[2.029s] -- Up-to-date: /root/workspaces/ros2_ws/install/ffw_navigation/share/ffw_navigation/local_setup.dsv
+[2.029s] -- Installing: /root/workspaces/ros2_ws/install/ffw_navigation/share/ffw_navigation/package.dsv
+[2.029s] -- Up-to-date: /root/workspaces/ros2_ws/install/ffw_navigation/share/ament_index/resource_index/packages/ffw_navigation
+[2.029s] -- Up-to-date: /root/workspaces/ros2_ws/install/ffw_navigation/share/ffw_navigation/cmake/ament_cmake_export_libraries-extras.cmake
+[2.029s] -- Up-to-date: /root/workspaces/ros2_ws/install/ffw_navigation/share/ffw_navigation/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.034s] -- Up-to-date: /root/workspaces/ros2_ws/install/ffw_navigation/share/ffw_navigation/cmake/ffw_navigationConfig.cmake
+[2.054s] -- Up-to-date: /root/workspaces/ros2_ws/install/ffw_navigation/share/ffw_navigation/cmake/ffw_navigationConfig-version.cmake
+[2.076s] -- Up-to-date: /root/workspaces/ros2_ws/install/ffw_navigation/share/ffw_navigation/package.xml
+[3.257s] Invoked command in '/root/workspaces/ros2_ws/build/ffw_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/workspaces/ros2_ws/install/ffw_teleop:/root/workspaces/ros2_ws/install/ffw_bringup:/opt/ros/jazzy /usr/bin/cmake --install /root/workspaces/ros2_ws/build/ffw_navigation

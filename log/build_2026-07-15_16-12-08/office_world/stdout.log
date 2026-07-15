@@ -1,0 +1,131 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (5.0s)
+-- Generating done (0.5s)
+-- Build files have been written to: /root/workspaces/ros2_ws/build/office_world
+-- Install configuration: ""
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//launch
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//launch/office_world_launch.launch.py
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//config
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//config/gz_bridge_ros.yaml
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//world
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//world/office_world.sdf
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/WaterDispenser
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/WaterDispenser/model.sdf
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/WaterDispenser/model.config
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/WaterDispenser/meshes
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/WaterDispenser/meshes/water_dispenser.dae
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Laptop
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Laptop/model.sdf
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Laptop/model.config
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Laptop/meshes
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Laptop/meshes/laptop.stl
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/ConferenceTable
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/ConferenceTable/model.sdf
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/ConferenceTable/model.config
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/ConferenceTable/meshes
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/ConferenceTable/meshes/conference_table.stl
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Door
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Door/model.sdf
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Door/model.config
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Door/meshes
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Door/meshes/door.stl
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Surfaces
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Surfaces/model.sdf
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Surfaces/model.config
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Surfaces/meshes
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Surfaces/meshes/floor_13.mtl
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Surfaces/meshes/floor_6.obj
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Surfaces/meshes/floor_4.mtl
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Surfaces/meshes/white_tiles.png
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Surfaces/meshes/floor_8.mtl
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Surfaces/meshes/floor_11.obj
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Surfaces/meshes/wall_2.mtl
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Surfaces/meshes/floor_2.obj
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Surfaces/meshes/white_carpet.png
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Surfaces/meshes/floor_8.obj
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Surfaces/meshes/black_concrete.png
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Surfaces/meshes/floor_6.mtl
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Surfaces/meshes/wall_2.obj
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Surfaces/meshes/floor_13.obj
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Surfaces/meshes/wood2.png
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Surfaces/meshes/floor_2.mtl
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Surfaces/meshes/model.material
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Surfaces/meshes/floor_4.obj
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Surfaces/meshes/floor_11.mtl
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Surfaces/meshes/floor_7.obj
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Surfaces/meshes/floor_14.mtl
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Surfaces/meshes/floor_5.mtl
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Surfaces/meshes/wall_1.obj
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Surfaces/meshes/floor_9.mtl
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Surfaces/meshes/wood1.png
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Surfaces/meshes/floor_12.obj
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Surfaces/meshes/floor_1.mtl
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Surfaces/meshes/floor_10.mtl
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Surfaces/meshes/floor_3.obj
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Surfaces/meshes/floor_9.obj
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Surfaces/meshes/white_wall.png
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Surfaces/meshes/floor_7.mtl
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Surfaces/meshes/floor_10.obj
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Surfaces/meshes/wall_1.mtl
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Surfaces/meshes/floor_1.obj
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Surfaces/meshes/floor_14.obj
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Surfaces/meshes/floor_3.mtl
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Surfaces/meshes/floor_12.mtl
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Surfaces/meshes/floor_5.obj
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Tv
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Tv/model.sdf
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Tv/model.config
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Tv/meshes
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Tv/meshes/tv.stl
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/HusarionLogo
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/HusarionLogo/meshes
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/HusarionLogo/meshes/husarion_logo.dae
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Kitchen
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Kitchen/model.sdf
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Kitchen/model.config
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Kitchen/meshes
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Kitchen/meshes/kitchen.stl
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Rosbot
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Rosbot/model.sdf
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Rosbot/model.config
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Rosbot/meshes
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Rosbot/meshes/upper.dae
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Rosbot/meshes/rplidar.dae
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Rosbot/meshes/box.dae
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Rosbot/meshes/wheel.dae
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world//models/Rosbot/meshes/astra.dae
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/ament_index/resource_index/package_run_dependencies/office_world
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/ament_index/resource_index/parent_prefix_path/office_world
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world/environment/ament_prefix_path.sh
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world/environment/ament_prefix_path.dsv
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world/environment/path.sh
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world/environment/path.dsv
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world/local_setup.bash
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world/local_setup.sh
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world/local_setup.zsh
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world/local_setup.dsv
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world/package.dsv
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/ament_index/resource_index/packages/office_world
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world/cmake/office_worldConfig.cmake
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world/cmake/office_worldConfig-version.cmake
+-- Installing: /root/workspaces/ros2_ws/install/office_world/share/office_world/package.xml

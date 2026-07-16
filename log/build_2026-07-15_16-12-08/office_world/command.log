@@ -1,6 +1,0 @@
-Invoking command in '/root/workspaces/ros2_ws/build/office_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/workspaces/ros2_ws/src/Gazebo_worlds/office_world -DCMAKE_INSTALL_PREFIX=/root/workspaces/ros2_ws/install/office_world
-Invoked command in '/root/workspaces/ros2_ws/build/office_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/workspaces/ros2_ws/src/Gazebo_worlds/office_world -DCMAKE_INSTALL_PREFIX=/root/workspaces/ros2_ws/install/office_world
-Invoking command in '/root/workspaces/ros2_ws/build/office_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/workspaces/ros2_ws/build/office_world -- -j4 -l4
-Invoked command in '/root/workspaces/ros2_ws/build/office_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/workspaces/ros2_ws/build/office_world -- -j4 -l4
-Invoking command in '/root/workspaces/ros2_ws/build/office_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/workspaces/ros2_ws/build/office_world
-Invoked command in '/root/workspaces/ros2_ws/build/office_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/workspaces/ros2_ws/build/office_world
